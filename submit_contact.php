@@ -4,10 +4,11 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 // Database connection details
-$host = "localhost";
-$dbname = "pureport_exporters";
-$user = "postgres";
-$password = "admin";
+$host = "db.gbcnpdiikkhyyyjqhfkw.supabase.co"; // Supabase Host
+$port = "5432"; 
+$dbname = "postgres"; 
+$user = "postgres"; 
+$password = "9860546619@Ss"; // Replace with your actual password
 
 try {
     // Connect to PostgreSQL
